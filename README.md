@@ -1,4 +1,4 @@
-# Hey, I’m Cyb3rCricket. 🦗
+# Hey, I’m Cricket. 🦗
 
 ### AI builder with an IT operations background and a soft spot for creative technology.
 
