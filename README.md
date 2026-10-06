@@ -1,4 +1,4 @@
-# Hey, I’m Tommi. You’ll find me here as Cyb3rCricket. 🦗
+# Hey, I’m Cyb3rCricket. 🦗
 
 ### AI builder with an IT operations background and a soft spot for creative technology.
 
