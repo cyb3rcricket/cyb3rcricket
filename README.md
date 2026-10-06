@@ -1,4 +1,4 @@
-# Hey, I’m Cricket. 🦗
+# Hey, I’m Cricket.
 
 ### AI builder with an IT operations background and a soft spot for creative technology.
 
@@ -64,7 +64,7 @@ I still love software that has personality.
 
 - **[Gravity Well](https://github.com/cyb3rcricket/gravity-well)** — a webpage whose interface gives in to gravity, collisions, and a singularity.
 - **[Mutation Microscope](https://github.com/cyb3rcricket/mutation-microscope)** — an interactive scientific visualization for exploring AlphaGenome variant-effect predictions.
-- **[Mutiny Bot](https://github.com/cyb3rcricket/mutiny-bot)** — a Discord operations bot exploring local AI, scheduling, persistent memory, and permission checks.
+- **[Mutiny Bot](https://github.com/cyb3rcricket/mutiny-bot)** — a chatbot project exploring local AI, scheduling, persistent memory, and permission checks.
 - **[Dial-Up Fun](https://github.com/cyb3rcricket/dial-up-fun)** — AOL / Windows 95-style dial-up nostalgia in the browser.
 - **[Y2K Oracle](https://github.com/cyb3rcricket/Y2K-Oracle)** — because software is allowed to be strange.
 
