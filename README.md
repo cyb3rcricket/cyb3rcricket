@@ -1,79 +1,80 @@
-# Hey, I’m Cricket. 🦗
+# Hey, I’m Tommi. You’ll find me here as Cyb3rCricket. 🦗
 
-### AI builder + creative technologist making interactive web experiments, scientific visualizations, useful tools, and software that gets a little weird on purpose.
+### AI builder with an IT operations background and a soft spot for creative technology.
 
-I like taking **“wouldn’t it be cool if…”** ideas and turning them into things you can actually click, drag, explore, break, rebuild, and share.
+I build practical AI tools, interactive web experiments, and software that gets a little weird on purpose.
 
-I build with AI coding tools as collaborators, but the goal is never just to generate code. I care about the idea, the interaction, the architecture, the testing, the source quality, and whether the finished thing is genuinely interesting to use.
+My background is in hands-on IT support, troubleshooting, ServiceNow, and workflow systems. I also have a **BS in Information Technology — Artificial Intelligence**, earned summa cum laude. These days, I’m putting that experience into projects that help me understand how AI applications actually work: the models, the memory, the interfaces, and what happens when something goes wrong.
 
-## Featured builds
+I’m working toward **Applied AI Engineer, AI Product Engineer, and AI Automation Engineer** roles.
+
+[Portfolio & case studies](https://cyb3rcricket.github.io/cyb3rcricket-site/index.html) · [Building in public on X](https://x.com/cyb3rcricket)
+
+## What I’m building
+
+### 🎫 [TinyDesk](https://cyb3rcricket.github.io/cyb3rcricket-site/tinydesk.html)
+
+A help desk demo that brings my support background into an AI application. It has a working ticket queue, activity history, and an assistant that summarizes tickets, suggests categories, and drafts replies using local Ollama models or Grok through the xAI API.
+
+The person working the ticket stays in control. Suggestions need review, applying a suggestion doesn’t save it, and drafts aren’t automatically sent. I’ve also compared models on fictional tickets to look beyond valid JSON and ask whether the answers are actually useful.
+
+**What I’m learning:** model evaluation, structured outputs, API integration, context limits, and designing AI assistance around a real workflow.
+
+`Python` · `FastAPI` · `JavaScript` · `Ollama` · `xAI API`
+
+*Demo project with fictional data. Source repository is private; the link above opens the public case study.*
+
+### 🧠 [TinyTalk](https://github.com/cyb3rcricket/TinyTalk)
+
+This started as a rebuild of an old college chatbot. Then I started asking what “memory” actually means for an assistant, and the project got more interesting.
+
+TinyTalk separates identity instructions, recent conversation, saved facts, and historical memories. It can use Ollama or Grok while keeping the same memory system. Recent work focuses on distinguishing current facts from old ones, handling unfinished memory updates, and showing which stored sources were supplied with an answer.
+
+**What I’m learning:** persistent memory, retrieval, structured relationships, failure recovery, and keeping application behavior consistent when the model changes.
+
+`Python` · `MemPalace` · `Knowledge graphs` · `Ollama` · `xAI API`
 
 ### 🏙️ [Commit City](https://github.com/cyb3rcricket/commit-city)
 
-Turn a GitHub contribution history into a **3D cyber-city**. Contribution days become city lots and heavier days rise into taller towers while preserving the familiar calendar shape from above.
+A GitHub contribution history turned into a 3D cyber-city. Contribution days become city lots, and heavier days rise into taller towers while keeping the familiar calendar shape from above.
+
+This is the creative side of the work: taking data people already recognize and giving them another way to explore it.
 
 `TypeScript` · `Three.js` · `Vite` · `GitHub data` · `3D interaction`
 
-### 🕳️ [Gravity Well](https://github.com/cyb3rcricket/gravity-well)
-
-A normal webpage that gives up on normal webpage behavior. Its interface elements become textured Three.js bodies, fall into a softened gravitational field, collide, orbit, stretch, and eventually disappear into the singularity.
-
-`JavaScript` · `Three.js` · `Physics` · `DOM → WebGL` · `Interaction design`
-
-### 🔬 [Mutation Microscope](https://github.com/cyb3rcricket/mutation-microscope)
-
-An interactive multi-scale genomic observatory for exploring **AlphaGenome variant-effect predictions** — from chromosome scale down to individual nucleotides, molecular tracks, splicing behavior, tissue specificity, and scientific provenance.
-
-`React` · `TypeScript` · `Genomics` · `Scientific visualization` · `AlphaGenome`
-
 ### 🔐 [Tennessee Digital Rights Tracker](https://github.com/cyb3rcricket/tennessee-digital-rights-tracker)
 
-A source-first civic-tech project that turns Tennessee laws, court decisions, surveillance systems, government technology records, and other public evidence into structured, reviewable entries with validation and traceable sourcing.
+A civic-tech research project organizing Tennessee laws, court decisions, surveillance systems, and public records into structured entries with traceable sources.
 
-`Python` · `GitHub Actions` · `Structured research` · `Civic tech` · `Digital rights`
+The question behind it is pretty simple: can someone follow a claim back to the evidence and check it for themselves?
 
-### 🌩️ [PainCast](https://github.com/cyb3rcricket/paincast)
+`Python` · `GitHub Actions` · `Structured research` · `Source validation`
 
-A weather-based planning tool that turns temperature, pressure, humidity, and related conditions into an explainable forecast designed to make everyday planning easier.
+## How I work
 
-`JavaScript` · `Weather data` · `Accessible UX` · `Explainable logic`
+I use AI coding tools as collaborators. I also want to be able to open the code, follow what happens, explain the decisions, and investigate the parts that break. That’s an ongoing part of the work.
 
-### 🤖 [Mutiny Bot](https://github.com/cyb3rcricket/mutiny-bot)
+Some of the most useful lessons have come from small failures: a model asking a question the ticket already answered, an old memory showing up as a current fact, or a request getting too large for a local model’s context window.
 
-A Discord operations bot built around local Ollama inference, SQLite, scheduling, tool calling, permission checks, persistent memory, RSS monitoring, and automated tests.
+Those are the parts I like digging into. They’re also why I care about clear state, useful error messages, focused tests, and honest documentation of what a project can and can’t do yet.
 
-`Python` · `Ollama` · `SQLite` · `Local AI` · `Automation`
-
-## What I’m exploring right now
-
-- AI-assisted rapid prototyping and coding agents
-- interactive 3D experiences, WebGL, and browser physics
-- scientific and technical visualization
-- agents, automation, and small tools that do real work
-- public-interest technology and structured evidence systems
-- weird-web, retro-computing, and playful interface experiments
-
-## Why I build this way
-
-My background is in hands-on IT support, troubleshooting, ServiceNow, ITSM, and workflow systems. Spending years inside real operational systems taught me to notice where software creates unnecessary friction — and to care about what happens after the demo works.
-
-That systems background now feeds directly into the things I build: clearer interactions, explicit state, recoverable workflows, useful automation, documented assumptions, and enough testing that an experiment can grow into something real.
-
-## The weird corner of the lab
+## More from the lab
 
 I still love software that has personality.
 
+- **[Gravity Well](https://github.com/cyb3rcricket/gravity-well)** — a webpage whose interface gives in to gravity, collisions, and a singularity.
+- **[Mutation Microscope](https://github.com/cyb3rcricket/mutation-microscope)** — an interactive scientific visualization for exploring AlphaGenome variant-effect predictions.
+- **[Mutiny Bot](https://github.com/cyb3rcricket/mutiny-bot)** — a Discord operations bot exploring local AI, scheduling, persistent memory, and permission checks.
 - **[Dial-Up Fun](https://github.com/cyb3rcricket/dial-up-fun)** — AOL / Windows 95-style dial-up nostalgia in the browser.
 - **[Y2K Oracle](https://github.com/cyb3rcricket/Y2K-Oracle)** — because software is allowed to be strange.
-- **[MutinyChat](https://github.com/cyb3rcricket/mutinychat)** — an encrypted desktop-messaging experiment using Tauri, Rust, Svelte, Python, and Tor hidden services.
 
-## Tools I reach for
+## Tools I’m working with
 
-**Build:** `TypeScript` · `JavaScript` · `React` · `Three.js` · `HTML` · `CSS` · `Python` · `SQLite` · `REST APIs`
+**AI applications:** `Python` · `FastAPI` · `Ollama` · `REST APIs` · `Structured outputs` · `Memory & retrieval`
 
-**Other stacks I wander into:** `Rust` · `Tauri` · `Svelte` · `Dart` · `Flutter` · `Kotlin` · `Jetpack Compose`
+**Web & creative builds:** `JavaScript` · `TypeScript` · `HTML` · `CSS` · `React` · `Three.js`
 
-**Systems:** `Git` · `GitHub` · `GitHub Actions` · `ServiceNow` · `ITSM` · `Automation`
+**Data & workflow:** `SQLite` · `Git` · `GitHub` · `GitHub Actions` · `ServiceNow` · `ITSM`
 
 ---
 
