@@ -1,81 +1,79 @@
 # Hey, I’m Cricket.
 
-### AI builder with an IT operations background and a soft spot for creative technology.
+### AI builder focused on practical workflows, employee coaching, and AI adoption.
 
-I build practical AI tools, interactive web experiments, and software that gets a little weird on purpose.
+I build practical AI tools, test where they help, and help people get comfortable using them. IT support roots. Creative technology still on the workbench.
 
-My background is in hands-on IT support, troubleshooting, ServiceNow, and workflow systems. I also have a **BS in Information Technology — Artificial Intelligence**, earned summa cum laude. These days, I’m putting that experience into projects that help me understand how AI applications actually work: the models, the memory, the interfaces, and what happens when something goes wrong.
+My background includes troubleshooting, ServiceNow, workflow systems, and a **BS in Information Technology with an AI concentration**. I’m focusing on **AI Enablement / Adoption Specialist** roles centered on useful workflows and employee coaching.
 
-I’m working toward **Applied AI Engineer, AI Product Engineer, and AI Automation Engineer** roles.
+[Portfolio & case studies](https://cyb3rcricket.github.io/cyb3rcricket-site/index.html) · [AI in practice](https://cyb3rcricket.github.io/cyb3rcricket-site/ai-in-practice.html) · [Building in public on X](https://x.com/Cyb3rCricket)
 
-[Portfolio & case studies](https://cyb3rcricket.github.io/cyb3rcricket-site/index.html) · [Building in public on X](https://x.com/cyb3rcricket)
+## Helping people use AI
 
-## What I’m building
+- **Useful workflows:** configured Copilot agents to suggest response templates and ServiceNow categories from SharePoint knowledge sources, with people reviewing responses and choosing categories manually.
+- **Testing and refinement:** revised instructions and retested the same examples, checking whether answers addressed the problem and avoided invented facts.
+- **Employee coaching:** demonstrated the agents, guided hands-on practice, and taught coworkers to check relevant knowledge-base articles and procedures when unsure.
+- **Clear instructions:** directed, reviewed, and edited AI-assisted instructional materials for employees.
+
+Coworkers reported saving time and effort and continued using the agents. These are qualitative observations, not measured accuracy or productivity gains. [Read the anonymous practice notes →](https://cyb3rcricket.github.io/cyb3rcricket-site/ai-in-practice.html)
+
+## Projects and field notes
 
 ### 🎫 [TinyDesk](https://cyb3rcricket.github.io/cyb3rcricket-site/tinydesk.html)
 
-A help desk demo that brings my support background into an AI application. It has a working ticket queue, activity history, and an assistant that summarizes tickets, suggests categories, and drafts replies using local Ollama models or Grok through the xAI API.
+A help desk demo with a working ticket queue, activity history, and AI summaries, category suggestions, and editable reply drafts. It explores where assistance belongs in a support workflow and what the person still needs to check.
 
-The person working the ticket stays in control. Suggestions need review, applying a suggestion doesn’t save it, and drafts aren’t automatically sent. I’ve also compared models on fictional tickets to look beyond valid JSON and ask whether the answers are actually useful.
+Suggestions need review, applying one doesn’t save it, and drafts aren’t automatically sent. A small twelve-ticket evaluation with fictional data checks usefulness, factual errors, repeated questions, and unsupported commitments.
 
-**What I’m learning:** model evaluation, structured outputs, API integration, context limits, and designing AI assistance around a real workflow.
+**What I’m learning:** workflow design, human review, model evaluation, structured outputs, and context limits.
 
-`Python` · `FastAPI` · `JavaScript` · `Ollama` · `xAI API`
+*Demo project with fictional data. Source repository is private; the link opens the public case study. Its evaluation is separate from the workplace experience above.*
 
-*Demo project with fictional data. Source repository is private; the link above opens the public case study.*
+### 📝 [Cursor for knowledge work](https://cyb3rcricket.github.io/cyb3rcricket-site/writing/beyond-coding-cursor-research-notes-writing.html)
+
+Field notes on using Cursor for research, connected notes, transcripts, and writing, including how to review an AI edit. A practical explanation of work people can do with an AI tool.
+
+[Related experiments on GitHub](https://github.com/cyb3rcricket/cursor-experiments)
 
 ### 🧠 [TinyTalk](https://github.com/cyb3rcricket/TinyTalk)
 
-This started as a rebuild of an old college chatbot. Then I started asking what “memory” actually means for an assistant, and the project got more interesting.
+An assistant exploring current facts, historical conversations, and source provenance. It separates identity instructions, recent context, saved facts, and historical memories, with Ollama or Grok using the same memory system.
 
-TinyTalk separates identity instructions, recent conversation, saved facts, and historical memories. It can use Ollama or Grok while keeping the same memory system. Recent work focuses on distinguishing current facts from old ones, handling unfinished memory updates, and showing which stored sources were supplied with an answer.
+**What I’m learning:** retrieval, persistent memory, failure recovery, and explaining which stored sources an answer used.
 
-**What I’m learning:** persistent memory, retrieval, structured relationships, failure recovery, and keeping application behavior consistent when the model changes.
+### 🦗 [Cricket Mode](https://github.com/cyb3rcricket/cricket-mode)
 
-`Python` · `MemPalace` · `Knowledge graphs` · `Ollama` · `xAI API`
+A portable behavior layer for AI coding agents: focused commands for setting scope, challenging assumptions, asking for evidence, and understanding results across tools.
 
-### 🏙️ [Commit City](https://github.com/cyb3rcricket/commit-city)
-
-A GitHub contribution history turned into a 3D cyber-city. Contribution days become city lots, and heavier days rise into taller towers while keeping the familiar calendar shape from above.
-
-This is the creative side of the work: taking data people already recognize and giving them another way to explore it.
-
-`TypeScript` · `Three.js` · `Vite` · `GitHub data` · `3D interaction`
-
-### 🔐 [Tennessee Digital Rights Tracker](https://github.com/cyb3rcricket/tennessee-digital-rights-tracker)
-
-A civic-tech research project organizing Tennessee laws, court decisions, surveillance systems, and public records into structured entries with traceable sources.
-
-The question behind it is pretty simple: can someone follow a claim back to the evidence and check it for themselves?
-
-`Python` · `GitHub Actions` · `Structured research` · `Source validation`
+**What I’m learning:** repeatable instructions, clear boundaries, and documenting what checks actually prove.
 
 ## How I work
 
-I use AI coding tools as collaborators. I also want to be able to open the code, follow what happens, explain the decisions, and investigate the parts that break. That’s an ongoing part of the work.
+I start with the task and look at what the tool actually produces. What helps? What breaks? What needs correcting before someone uses it?
 
-Some of the most useful lessons have come from small failures: a model asking a question the ticket already answered, an old memory showing up as a current fact, or a request getting too large for a local model’s context window.
+I use AI coding tools as collaborators while learning to follow the code, explain the decisions, and investigate failures. I use AI to help draft instructional material, too, then review and edit it for the people who will read it.
 
-Those are the parts I like digging into. They’re also why I care about clear state, useful error messages, focused tests, and honest documentation of what a project can and can’t do yet.
-
-## More from the lab
-
-I still love software that has personality.
-
-- **[Gravity Well](https://github.com/cyb3rcricket/gravity-well)** — a webpage whose interface gives in to gravity, collisions, and a singularity.
-- **[Mutation Microscope](https://github.com/cyb3rcricket/mutation-microscope)** — an interactive scientific visualization for exploring AlphaGenome variant-effect predictions.
-- **[Mutiny Bot](https://github.com/cyb3rcricket/mutiny-bot)** — a chatbot project exploring local AI, scheduling, persistent memory, and permission checks.
-- **[Dial-Up Fun](https://github.com/cyb3rcricket/dial-up-fun)** — AOL / Windows 95-style dial-up nostalgia in the browser.
-- **[Y2K Oracle](https://github.com/cyb3rcricket/Y2K-Oracle)** — because software is allowed to be strange.
+Some useful lessons have come from small failures: a reply that misses one of the customer’s issues, an old memory treated as a current fact, or a request too large for a local model’s context. Those deserve clear explanations.
 
 ## Tools I’m working with
 
-**AI applications:** `Python` · `FastAPI` · `Ollama` · `REST APIs` · `Structured outputs` · `Memory & retrieval`
+**Workplace AI and knowledge sources:** Microsoft 365 Copilot · Copilot agents · SharePoint · Excel · ServiceNow
 
-**Web & creative builds:** `JavaScript` · `TypeScript` · `HTML` · `CSS` · `React` · `Three.js`
+**Personal AI projects:** Python · FastAPI · Ollama · xAI API · structured outputs · memory and retrieval
 
-**Data & workflow:** `SQLite` · `Git` · `GitHub` · `GitHub Actions` · `ServiceNow` · `ITSM`
+**Web and project tools:** HTML · CSS · JavaScript · TypeScript · React · Three.js · SQLite · Git · GitHub
+
+## Creative technology and the lab
+
+I still love software that has personality.
+
+- **[Commit City](https://github.com/cyb3rcricket/commit-city)** — a GitHub contribution history turned into a 3D city.
+- **[Gravity Well](https://github.com/cyb3rcricket/gravity-well)** — a webpage whose interface gives in to gravity.
+- **[Mutation Microscope](https://github.com/cyb3rcricket/mutation-microscope)** — an interactive visualization for exploring AlphaGenome variant-effect predictions.
+- **[Mutiny Bot](https://github.com/cyb3rcricket/mutiny-bot)** — local AI, scheduling, persistent memory, and permission checks.
+- **[Tennessee Digital Rights Tracker](https://github.com/cyb3rcricket/tennessee-digital-rights-tracker)** — structured civic research with traceable sources.
+- **[Dial-Up Fun](https://github.com/cyb3rcricket/dial-up-fun)** and **[Y2K Oracle](https://github.com/cyb3rcricket/Y2K-Oracle)** — because software is allowed to be strange.
 
 ---
 
-### Build useful things. Build weird things. Make them work.
+### Build useful things. Build weird things. Help people use them.
